@@ -7,13 +7,13 @@
 - (void)initialize
 {
     // your code here
-}
-
--(void)update:(CCTime)delta
+}character = (Character*)[CCBReader load:@"Character"];
+[physicsNode addChild:character];-(void)update:(CCTime)delta
 {
     // put update code here
 }
 
 // put new methods here
-
-@end
+- (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
+    
+    @end
