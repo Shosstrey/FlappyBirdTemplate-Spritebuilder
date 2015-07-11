@@ -16,4 +16,5 @@
 // put new methods here
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     
-    "\n@end\n"
+    @end
+@end
